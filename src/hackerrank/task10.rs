@@ -9,5 +9,5 @@ fn sock_merchant(_n: i32, ar: &[i32]) -> i32 {
 
 #[test]
 fn test0() {
-    assert_eq!(sock_merchant(&[10, 20, 20, 10, 10, 30, 50, 10, 20]), 3);
+    assert_eq!(sock_merchant(9, &[10, 20, 20, 10, 10, 30, 50, 10, 20]), 3);
 }
